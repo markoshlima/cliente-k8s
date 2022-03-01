@@ -1,0 +1,25 @@
+{
+    "clientes" : [
+        {
+            "clienteId": 1,
+            "nome": "Ana",
+            "sobrenome": "Josh",
+            "idade": 25,
+            "documento": "78.945.612-3"
+        },
+        {
+            "clienteId": 2,
+            "nome": "Joao",
+            "sobrenome": "Icare",
+            "idade": 35,
+            "documento": "32.547.999-8"
+        },
+        {
+            "clienteId": 3,
+            "nome": "Maria",
+            "sobrenome": "Luth",
+            "idade": 15,
+            "documento": "21.333.658-0"
+        }
+    ]
+}
