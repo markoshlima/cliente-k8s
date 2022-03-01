@@ -1,28 +1,28 @@
 # cliente-k8s
 
-**Pre-Requisites**
+**Pre-Requisites** <br />
 Node Version: 16.14.0
 NPM 8.3.1
 Docker 20.10.7
 
-**Install**
+**Install** <br />
 npm install
 
-**Start node server**
+**Start node server** 
 npm run dev
 
-**Build docker container**
+**Build docker container** <br />
 docker build . -t markoshlima/cliente-k8s
 
-**Start docker container**
+**Start docker container** <br />
 docker run -it -p 5000:8080 -d markoshlima/cliente-k8s
 
-**Logs docker container**
+**Logs docker container** <br />
 docker logs [img]
 
-**Inspect docker image**
+**Inspect docker image** <br />
 docker inspect [img]
 docker exec -it [img] /bin/bash
 
-**Stop docker container**
+**Stop docker container** <br />
 docker stop [img]
