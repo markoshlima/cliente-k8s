@@ -1,8 +1,8 @@
 # cliente-k8s
 
 **Pre-Requisites** <br />
-Node Version: 16.14.0
-NPM 8.3.1
+Node Version: 16.14.0 <br />
+NPM 8.3.1 <br />
 Docker 20.10.7
 
 **Install** <br />
@@ -21,7 +21,7 @@ docker run -it -p 5000:8080 -d markoshlima/cliente-k8s
 docker logs [img]
 
 **Inspect docker image** <br />
-docker inspect [img]
+docker inspect [img] <br />
 docker exec -it [img] /bin/bash
 
 **Stop docker container** <br />
