@@ -15,7 +15,7 @@ npm run dev
 docker build . -t markoshlima/cliente-k8s
 
 **Start docker container** <br />
-docker run -it -p 5000:8080 -d markoshlima/cliente-k8s
+docker run -it -p 5004:8080 -d markoshlima/cliente-k8s
 
 **Logs docker container** <br />
 docker logs [img]
