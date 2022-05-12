@@ -12,7 +12,7 @@ npm install
 npm run dev
 
 **Build docker container** <br />
-docker build . -t markoshlima/cliente-k8s
+docker build . -t markoshlima/cliente-k8s<br />
 docker build . -t markoshlima/cliente-k8s --platform linux/amd64 //EKS
 
 **Start docker container** <br />
