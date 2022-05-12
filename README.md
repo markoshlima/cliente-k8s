@@ -13,6 +13,7 @@ npm run dev
 
 **Build docker container** <br />
 docker build . -t markoshlima/cliente-k8s
+docker build . -t markoshlima/cliente-k8s --platform linux/amd64 //EKS
 
 **Start docker container** <br />
 docker run -it -p 5004:8080 -d markoshlima/cliente-k8s
